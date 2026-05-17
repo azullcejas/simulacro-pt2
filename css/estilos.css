@@ -1,0 +1,88 @@
+/* Google Fonts - Abel */
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* ===== GENERAL ===== */
+body {
+  background-image: url('../img/fondo.png');
+  background-color: #0a1628;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== CONTENEDOR ===== */
+header, nav, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+}
+
+/* ===== TÍTULOS CON ABEL ===== */
+h1, h2, h3 {
+  font-family: 'Abel', sans-serif;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* ===== NAV ===== */
+nav {
+  background-color: rgba(10, 22, 40, 0.9);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #1a3a5c;
+  color: #ffffff;
+}
+
+nav ul li a:visited {
+  color: #cccccc;
+}
+
+nav ul li a:active {
+  color: #aaaaaa;
+}
+
+/* ===== MAIN ===== */
+main {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+}
+
+main img {
+  width: 100%;
+  max-width: 500px;
+  margin: 1rem 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
